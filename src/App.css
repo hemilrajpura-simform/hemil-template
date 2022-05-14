@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 0;
+   color:#1b1b1b;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* */
+
+
+.slider-main {
+  height: 81vh;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+.slider-heading h3 {
+  font-size: 1.5rem;
+  padding: 2px 0;
+  color: #4e0202d9;
+}
+.slider-icon img{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* border: 7px solid #ff5739f2;  */
+  outline: 5px solid #4080f595;  
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.2s ease-in;
+}
+.slider-icon img:hover{
+  /* border: 8px solid #ff5739f2;  */
+  outline: 9px solid #4080f595;   
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.2s ease-out;
+}
+.slider-heading h2 {
+  font-family: "Chilanka", cursive;
+  padding: 12px 0;
+  font-size: 2.5rem;
+  /* color: #ffdfda;  */
+}
+
+@media only screen and (max-width: 600px) {
+  .slider-heading h2 {
+    font-family: "Chilanka", cursive;
+    font-size: 1.5rem;
+  }
+}
