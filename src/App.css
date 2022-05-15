@@ -56,7 +56,7 @@ body {
   font-size: 2.5rem;
   /* color: #ffdfda;  */
 }
-.slider-heading p{ position: absolute; opacity: 0.3; }
+.slider-heading p{ position: absolute; opacity: 0.2; text-align: center; }
 @media only screen and (max-width: 600px) {
   .slider-heading h2 {
     font-family: "Chilanka", cursive;
