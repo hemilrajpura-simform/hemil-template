@@ -9,7 +9,7 @@ return(
     </div>
     <div className='slider-heading'>
       <h2>
-        Hi, I'm Hemil Nice To See You :)
+        Hi, I'm Hemil, Nice To See You :)
       </h2>
     </div>
 
